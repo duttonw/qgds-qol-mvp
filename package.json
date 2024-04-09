@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "start": "npm run build",
     "lint": "eslint --fix --ext .js,.json --ignore-pattern 'docs/*' --ignore-pattern 'dist/*' .",
-    "build": "node esbuild.js",
+    "esbuild": "node esbuild.js",
     "test": "echo 'no tests yet'",
-    "watch": "node esbuild.js --watch",
+    "eswatch": "node esbuild.js --watch",
     "serve": "live-server dist",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"

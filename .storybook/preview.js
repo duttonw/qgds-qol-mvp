@@ -1,6 +1,6 @@
-import "../dist/assets/js/bootstrap.min.js";
-import "../dist/assets/js/main.js";
-import "../dist/assets/css/qld.bootstrap.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+import "../src/main.js";
+import "../src/main.scss";
 import {withThemeByClassName} from '@storybook/addon-themes';
 import {allBackgrounds} from "./modes.js";
 

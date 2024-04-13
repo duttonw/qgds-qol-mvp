@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    root: './dist',
+    root: './src',
     plugins: [
         {
             name: "html-transform",
